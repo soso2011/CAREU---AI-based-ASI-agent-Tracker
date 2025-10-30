@@ -2,7 +2,7 @@
 A next generation multi-agent system built for the ASI Agents Track, combining the power of Fetch.ai’s uAgents framework and SingularityNET’s MeTTa Knowledge Graph which showcases decentralized, autonomous agents can reason, collaborate, and act across chains, driving a composable, ethical, and accessible AI ecosystem under ASI Alliance.
 
 🎯 Project Overview
-MediChain AI is a decentralized healthcare diagnostic system that combines Fetch.ai's autonomous agents with SingularityNET's MeTTa knowledge graphs to provide accurate, explainable medical assessments accessible through ASI:One chat interface.
+CAREU AI is a decentralized healthcare diagnostic system that combines Fetch.ai's autonomous agents with SingularityNET's MeTTa knowledge graphs to provide accurate, explainable medical assessments accessible through ASI:One chat interface.
 
 Problem Statement: Medical misdiagnosis affects 12 million Americans annually, leading to $40 billion in healthcare costs and thousands of preventable deaths. Current solutions lack transparency, scalability, and 24/7 accessibility.
 
@@ -19,13 +19,17 @@ Patient Intake Agent - NLP symptom extraction with enhanced modifiers (agent1qgr
 Knowledge Graph Agent - MeTTa diagnostic reasoning (25 query methods, v2.0 KB) (agent1qdjy30exkpc0zxu6p8urwnllg9fygj27h3nzksq9twmqcsyundvckavn6v6) ✅
 Symptom Analysis Agent - Urgency assessment & red flag detection (agent1qdxqnfmu735ren2geq9f3n8ehdk43lvm9x0vxswv6xj6a5hn40yfqv0ar42) ✅
 Treatment Recommendation Agent - Evidence-based treatments with safety validation (agent1qg9m6r976jq4lj64qfnp679qu8lu4jzcy06y09mf7ta4l2sm8uq9qfqrc9v) ✅
+
 Technology Stack
+
 Agent Framework: Fetch.ai uAgents
 Knowledge Graph: SingularityNET MeTTa
 Deployment: Agentverse
 Interface: ASI:One Chat Protocol
 Language: Python 3.9+
+
 🚀 Quick Start
+
 Prerequisites
 Python 3.9 or higher
 pip package manager
@@ -146,7 +150,7 @@ Status: ✅ Deployed & Tested (Day 4)
 🛡️ Input Validation System (Day 7 - NEW!)
 Comprehensive 14-Scenario Edge Case Handler - Production-Ready Safety & UX
 
-MediChain AI validates ALL user input before diagnostic processing, ensuring safety, clear boundaries, and professional user experience.
+CAREU AI validates ALL user input before diagnostic processing, ensuring safety, clear boundaries, and professional user experience.
 
 Safety-First Priority System
 🚨 CRITICAL (Safety-First):
@@ -227,7 +231,9 @@ Live demonstration via ASI:One
 MeTTa reasoning transparency
 Multi-agent coordination showcase
 Real-world impact and benefits
+
 📚 Documentation
+
 Planning & Requirements
 Product Requirements Document (PRD) - Epic → Story → Task hierarchy
 Execution Plan & Progress Tracker - Daily task tracking
@@ -669,6 +675,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 # Or via environment variable
 LOG_LEVEL=DEBUG python src/agents/coordinator.py
+
 🤝 Contributing
 This is a hackathon project. Contributions welcome during development phase.
 
@@ -681,6 +688,7 @@ Open Pull Request
 MIT License - see LICENSE file for details
 
 🔗 Resources
+
 Official Documentation
 Fetch.ai uAgents Framework
 Chat Protocol Guide
